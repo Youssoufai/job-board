@@ -10,14 +10,14 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="bg-white shadow-lg">
+  <nav class="bg-white shadow-lg py-4">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-7">
           <!-- Logo -->
           <div>
             <a href="#" class="flex items-center py-4 px-2">
-              <span class="font-semibold text-gray-500 text-2xl">Job Board</span>
+              <span class="font-semibold text-gray-500 text-4xl">Job <span class="text-red-500">Board</span></span>
             </a>
           </div>
           <!-- Primary Navbar items -->
@@ -30,7 +30,7 @@
         </div>
         <!-- Secondary Navbar items -->
         <div class="hidden md:flex items-center space-x-3">
-          <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Log In</a>
+          <a href="{{ route('login') }}" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Log In</a>
           <a href="{{ route('register') }}" class="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-400 transition duration-300">Sign Up</a>
         </div>
         <!-- Mobile menu button -->
