@@ -2,8 +2,8 @@
     <div class="min-h-screen bg-gray-100">
         <!-- Hero Section -->
         <div class="bg-blue-600 text-white text-center py-16">
-            <h1 class="text-5xl font-bold">Find Your Dream Job</h1>
-            <p class="text-lg mt-3">Browse thousands of job listings from top companies</p>
+            <h1 class="text-5xl font-bold">Find Your <span class="text-red-500">Dream Job</span></h1>
+            <p class="text-lg mt-3">Browse thousands of job listings from <span class="text-red-500">top companies</span></p>
     
             <form class="mt-6 flex justify-center">
                 <input type="text" placeholder="Search for jobs..." class="w-1/3 p-3 border rounded-l-lg text-gray-900">
